@@ -1,6 +1,8 @@
 import React from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
+import MainVisual from "../components/MainVisual";
+
 import "./Home.css";
 
 class Home extends React.Component {
@@ -26,9 +28,12 @@ class Home extends React.Component {
 
     return (
       <section className="container">
+        <div className="main__visual">
+          <MainVisual />
+        </div>
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text">"로딩중..."</span>
+            <span className="loader__text">"로딩중입니다"</span>
           </div>
         ) : (
           <div className="movies">

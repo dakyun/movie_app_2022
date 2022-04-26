@@ -1,21 +1,45 @@
 .nav{
     z-index:99;
     position:fixed;
-    top:50px;
-    left:10px;
+    top:5%;
+    right:5%;
     display:flex;
     flex-direction:column;
     background:#ffffff;
     padding:10px 20px;
     box-shadow:0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 6px 16px -6px rgba(0, 0, 0, .025);
-    border-radius:5px;
+    border-radius:12px;
+    gap:1.8rem;
+}
+.nav .nav_1{
+    display:block;
+    background:url(../../public/images/home_ico.png) no-repeat center center / 100%;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    transition:all .3s;
+}
+.nav .nav_2{
+    display:block;
+    background:url(../../public/images/about_ico.png) no-repeat center  center / 100%;;
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    transition:all .3s;
+}
+.nav .nav_1:hover,.nav .nav_2:hover{
+    transform:translateY(-5px);
+    transition:all .3s;
 }
 @media screen and (max-width:1090px) {
     .nav{
-        left:initial;
+        right:initial;
         top:initial;
         bottom:0;
         width:100%;
+        align-items:center;
+        border-radius:0;
+        gap:.5rem;
     }
     .nav a{
         text-decoration:none;

@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mainvisual{
+    height:70vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    background-blend-mode:multiply
+}
+.mv__container{
+    width:70%;
+    margin:0 auto;
+}
+.bold{
+    font-weight:bold;
+}
+.mv__container .mv__slogan{
+    margin-top:14rem;
+}
+.mv__container .mv__subtitle{
+    color:#f0f0f0;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    line-height:3;
+}
+.mv__container .mv__txt{
+    color:#ffffff;
+    font-size:48px;
+    font-weight:lighter;
+    margin-bottom:2rem;
+}
+.mv__container .mv__slogan .mv__txt_detail{
+    color:#e0e0e0;
+    margin:1rem 0;
+    font-size:14px;
+}
+.mv__container .mv__slogan .mv__btn{
+    text-decoration:none;
+    color:#ffffff;
+    display:block;
+    width:160px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border:1px solid #ffffff;
+    transition:all 0.4s;
+}
+.mv__container .mv__slogan .mv__btn:hover{
+    background:#ffffff;
+    color:#222222;
+    transition:all 0.4s;
+}
+.mainvisual.mv__1{
+    background-image:url(../../public/images/mainvisual01.jpg), linear-gradient(to right, #cbcbcb 100%, #ffffff 0%);;
+}
+.mainvisual.mv__2{
+    background-image:url(../../public/images/mainvisual02-1.jpg), linear-gradient(to right, #898989 100%, #ffffff 0%);;
+}
+.mainvisual.mv__3{
+    background-image:url(../../public/images/mainvisual03-1.jpg), linear-gradient(to right, #898989 100%, #ffffff 0%);;
+}
+.mv_wrap{
+    position:relative;
+}
+.mv_wrap .logo{
+    width:60px;
+    height:60px;
+    display:block;
+    background:url(../../public/images/logo.png) no-repeat center / 100%;
+    filter:grayscale(1);
+    text-indent:-9999px;
+    position: absolute;
+    top:5%;
+    left:5%;
+    z-index:221;
+}
+.slick-dots li button:before{
+    color:#cbcbcb;
+    font-size: 14px;
+    top:10px;
+}
+.slick-dots li.slick-active button:before{
+    color:#ffffff;
+    font-size: 14px;
+}
+@media screen and (max-width:1090px) {
+    .mainvisual{
+        height:500px;
+    }
+    .mv__container{
+        width:85%;
+    }
+    .mv__container .mv__txt{
+        font-size:32px;
+    }
+    .mv_wrap .logo{
+        width:50px;
+        height:50px;
+    }
+}
