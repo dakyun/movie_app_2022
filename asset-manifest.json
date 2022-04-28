@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/movie_app_2022/static/css/main.39201620.css",
-    "main.js": "/movie_app_2022/static/js/main.618bffc1.js",
+    "main.css": "/movie_app_2022/static/css/main.2d436053.css",
+    "main.js": "/movie_app_2022/static/js/main.ffc8380f.js",
+    "static/media/mainvisual01.jpg": "/movie_app_2022/static/media/mainvisual01.3818bb0afffc158302a2.jpg",
+    "static/media/mainvisual02-1.jpg": "/movie_app_2022/static/media/mainvisual02-1.426744f8d720acb961eb.jpg",
+    "static/media/mainvisual03-1.jpg": "/movie_app_2022/static/media/mainvisual03-1.2870e19686f48d6af41e.jpg",
+    "static/media/about_char.png": "/movie_app_2022/static/media/about_char.38d8c7511eb137449a8e.png",
+    "static/media/slick.svg": "/movie_app_2022/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/movie_app_2022/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/movie_app_2022/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/movie_app_2022/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/movie_app_2022/index.html",
-    "main.39201620.css.map": "/movie_app_2022/static/css/main.39201620.css.map",
-    "main.618bffc1.js.map": "/movie_app_2022/static/js/main.618bffc1.js.map"
+    "main.2d436053.css.map": "/movie_app_2022/static/css/main.2d436053.css.map",
+    "main.ffc8380f.js.map": "/movie_app_2022/static/js/main.ffc8380f.js.map"
   },
   "entrypoints": [
-    "static/css/main.39201620.css",
-    "static/js/main.618bffc1.js"
+    "static/css/main.2d436053.css",
+    "static/js/main.ffc8380f.js"
   ]
 }
