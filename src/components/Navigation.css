@@ -2,30 +2,43 @@
     z-index:99;
     position:fixed;
     top:5%;
-    right:5%;
+    left:5%;
     display:flex;
-    flex-direction:column;
-    background:#ffffff;
     padding:10px 20px;
-    box-shadow:0 13px 27px -5px rgba(50, 50, 93, .25), 0 8px 16px -8px rgba(0, 0, 0, .3), 0 6px 16px -6px rgba(0, 0, 0, .025);
     border-radius:12px;
-    gap:1.8rem;
+    gap:2rem;
+    align-items:center;
+    width:90%;
+    justify-content:space-between;
 }
 .nav .nav_1{
+    width:60px;
+    height:60px;
     display:block;
-    background:url(../../public/images/home_ico.png) no-repeat center center / 100%;
-    width:32px;
-    height:32px;
+    background:url(../../public/images/logo.png) no-repeat center / 100%;
+    filter:grayscale(1);
     text-indent:-9999px;
+    z-index:221;
     transition:all .3s;
+}
+.nav .gnb{
+    display:flex;
+    gap:2rem;
+    flex:1;
 }
 .nav .nav_2{
     display:block;
-    background:url(../../public/images/about_ico.png) no-repeat center  center / 100%;;
-    width:32px;
-    height:32px;
-    text-indent:-9999px;
     transition:all .3s;
+    text-decoration:none;
+    color:#ffffff;
+    font-size:1.1rem;
+}
+.nav .search .nav_2{
+    width:50px;
+    height:50px;
+    background:url(../../public/images/Search.png) no-repeat center / 100%;
+    opacity:.8;
+    text-indent:-9999px;
 }
 .nav .nav_1:hover,.nav .nav_2:hover{
     transform:translateY(-5px);
@@ -33,23 +46,24 @@
 }
 @media screen and (max-width:1090px) {
     .nav{
-        right:initial;
-        top:initial;
-        bottom:0;
-        width:100%;
+        width:90%;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    .nav .nav_1{
+        width:50px;
+        height:50px;
+    }
+    .nav .gnb{
+        gap:1.2rem;
+    }
+    .nav .nav_2{
+        font-size:.8rem;
+        text-align:center;
         align-items:center;
-        border-radius:0;
-        gap:.5rem;
     }
-    .nav a{
-        text-decoration:none;
-        color:#0008fc;
-        text-transform:uppercase;
-        font-size:12px;
-        text-align: center;
-        font-weight:600;
-    }
-    .nav a:not(:last-child){
-        margin-bottom:20px;
+    .nav .search .nav_2{
+        width:40px;
+        height:40px;
     }
 }

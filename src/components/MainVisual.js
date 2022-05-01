@@ -19,9 +19,6 @@ export default function mainVisual() {
   };
   return (
     <div class="mv_wrap">
-      <Link to="/">
-        <h1 className="logo">DK's 리액트 무비 앱</h1>
-      </Link>
       <Slider {...settings}>
         <div className="mainvisual mv__1">
           <div className="mv__container">

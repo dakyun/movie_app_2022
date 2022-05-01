@@ -3,7 +3,7 @@
     padding:0;
 }
 .mainvisual{
-    height:70vh;
+    height:700px;
     width:100%;
     background-repeat:no-repeat;
     background-position:center center;
@@ -43,6 +43,7 @@
     display:block;
     width:160px;
     height:40px;
+    font-size:15px;
     text-align:center;
     line-height:40px;
     border:1px solid #ffffff;
@@ -64,18 +65,6 @@
 }
 .mv_wrap{
     position:relative;
-}
-.mv_wrap .logo{
-    width:60px;
-    height:60px;
-    display:block;
-    background:url(../../public/images/logo.png) no-repeat center / 100%;
-    filter:grayscale(1);
-    text-indent:-9999px;
-    position: absolute;
-    top:5%;
-    left:5%;
-    z-index:221;
 }
 .slick-dots li button:before{
     color:#cbcbcb;

@@ -27,7 +27,7 @@ class Home extends React.Component {
     const { isLoading, movies } = this.state;
 
     return (
-      <section className="container">
+      <section>
         <div className="main__visual">
           <MainVisual />
         </div>
@@ -36,18 +36,20 @@ class Home extends React.Component {
             <span className="loader__text">"로딩중입니다"</span>
           </div>
         ) : (
-          <div className="movies">
-            {movies.map((movie) => (
-              <Movie
-                key={movie.id}
-                id={movie.id}
-                year={movie.year}
-                title={movie.title}
-                summary={movie.summary}
-                poster={movie.medium_cover_image}
-                genres={movie.genres}
-              />
-            ))}
+          <div className="container">
+            <div className="movies">
+              {movies.map((movie) => (
+                <Movie
+                  key={movie.id}
+                  id={movie.id}
+                  year={movie.year}
+                  title={movie.title}
+                  summary={movie.summary}
+                  poster={movie.medium_cover_image}
+                  genres={movie.genres}
+                />
+              ))}
+            </div>
           </div>
         )}
       </section>
