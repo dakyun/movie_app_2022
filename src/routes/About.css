@@ -1,13 +1,13 @@
 .about__container{
     box-shadow:0 13px 27px -5px rgba(224, 224, 237, 0.25), 0 9px 16px -8px rgba(222, 222, 222, 0.3),0 -6px 16px -6px rgba(211, 202, 202, 0.025);
     padding:30px;
-    border-radius:15px;
-    margin:100px auto 0;
+    margin:200px auto;
     max-width:700px;
     height:800px;
     font-weight:300;
     line-height:1.8;
-    background:#ffffff url(../../public/images/about_char.png) no-repeat center bottom;
+    background:#484848 url(../../public/images/about_char.png) no-repeat center bottom;
+    color:#ffffff;
 }
 .about__container h2{
     font-size:32px;

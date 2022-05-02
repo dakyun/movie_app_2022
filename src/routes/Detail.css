@@ -1,9 +1,8 @@
 .detail{
-    background-color:#ffffff;
+    background-color:#484848;
     margin-bottom:70px;
     font-weight:300;
     padding:20px;
-    border-radius:15px;
     color:#adaeb9;
     box-shadow:0 13px 27px -5px rgba(50, 50, 93, .25),0 8px 16px -8px rgba(0, 0, 0, .3),0 -12px 36px -8px rgba(0,0,0,.025);
 }
@@ -20,7 +19,7 @@
 .detail .movie__title{
     margin-bottom:5px;
     font-size:24px;
-    color:#2c2c2c;
+    color:#ffffff;
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
 }
@@ -48,7 +47,8 @@
     width:70%;
     margin:180px auto;
     padding-top:70px;
-    background-color:#efefef;
+    background-color:#484848;
+    color:#ffffff;
 }
 
 @media screen and (max-width:1090px) {
